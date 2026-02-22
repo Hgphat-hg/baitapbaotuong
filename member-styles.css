@@ -1,0 +1,23 @@
+/* Member Card Overrides for Background Images */
+.member-card h3 {
+    color: white !important;
+}
+
+.member-description {
+    color: white !important;
+}
+
+.skill {
+    background: rgba(196, 30, 58, 0.9) !important;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .members-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .member-card {
+        min-height: 300px;
+    }
+}
